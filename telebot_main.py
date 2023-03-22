@@ -7,7 +7,7 @@ import asyncio
 import aioschedule as schedule
 from datetime import datetime
 
-bot = Bot('6175564820:AAHV3JcGjKCEJImLMySa9Qw8yuGDRTnKE_s')
+bot = Bot('bot_token')
 db = Dispatcher(bot, storage=MemoryStorage())
 DATA_USERS = DATA_USERS_SET()
 MARKUP = Markup()
